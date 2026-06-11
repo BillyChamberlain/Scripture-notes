@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: whitesmoke;
+}
+pre{
+    color: white;
+    text-align: left;
+}
+#s_para1{
+    color: blueviolet;
+}
+.c_para1{
+    color: fuchsia;
+}
+.iteration{
+    color: burlywood;
+}
+blockquote{
+    color: white;
+}
+address{
+    color: white;
+}
+button{
+    margin: 5px 2px;
+    background-color: #18AB15;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: darkgreen;
+}
+a{
+    display: block;
+}
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: overline;
+}
+#collaps{
+    th, td{
+        padding: 15px;
+    }
+    td{
+        text-align: center;
+    }
+}
+#hori{
+    td, th{
+        padding: 2px 20px;
+    }
+    th{
+        color:coral;
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tables cuz why the hell not</title>
+        <link rel = "stylesheet" href="style_test.css">
+        <style>
+            button{
+                display: block;
+                size: 20px;
+            }
+            table, th, tr td{
+                border: 1px solid white;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick = "window.location.href = 'Text Stuff.html'">Back</button>
+        <h1 style = 'font-size: 40px;margin-bottom: 50px; text-align:center;color:aqua '>This is a section for tables</h1>
+        <p><strong><u>Tables work in very cool ways!</u></strong></p>
+        <table style = "width:20%; border-spacing:4px">
+            <tr>
+                <th>Number 1</th>
+                <th>Number 2</th>
+                <th>Number 3</th>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>400</td>
+                <td>500</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td>700</td>
+                <td>800</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>1000</td>
+                <td>2000</td>
+                <td>3000</td>
+            </tr>
+        </table>
+        <br><br>
+        <table id = 'collaps' style = "width:100; border-collapse:collapse;">
+            <tr>
+                <th>Number 1</th>
+                <th colspan="2">Number 2</th>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>400</td>
+                <td>500</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td>700</td>
+                <td>800</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>1000</td>
+                <td>2000</td>
+                <td>3000</td>
+            </tr>
+        </table>
+        <br><br><br>
+        <table id = 'hori'; style = "border-collapse: collapse;">
+            <caption>What the fuck table</caption>
+            <tr>
+                <th>Number 1</th>
+                <td>100</td>  
+            </tr>
+            <tr>
+                <th rowspan="2">Number 2</th>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>10000</td>
+            </tr>
+        </table>
+    </body>
+</html>
